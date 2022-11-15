@@ -1,0 +1,4 @@
+SELECT @@GLOBAL.sql_mode;
+SELECT @@SESSION.sql_mode;
+
+SET SESSION sql_mode = 'ERROR_FOR_DIVISION_BY_ZERO';
